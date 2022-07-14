@@ -1,9 +1,8 @@
-void perdiste(){
-    background( rojo );
-    fill( 10 );
-    textFont( fuente2, 100 );
-    text( "GAME\nOVER!", width/2, 200 );
-    textFont( fuente2, 25 );
-    text( "HAGA CLICK PARA VER LOS\nCREDITOS", width/2, random ( height/2+260, height/2+263 ) );
-    image( calavera, width/2, height/2+80, 200, 200);
+void perdiste() {
+  background( rojo );
+  textFont( fuente2 );
+  MiTexto( "GAME\nOVER!", 100, width/2, 200, color ( 10 ) );
+  MiTexto( "HAGA CLICK PARA VER LOS\nCREDITOS", 25, width/2, random ( height/2+260, height/2+263 ), color ( 10 ) );
+  
+  image( calavera, width/2, height/2+80, 200, 200);
 }
