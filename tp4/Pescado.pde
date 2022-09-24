@@ -2,9 +2,9 @@
 //class Pescado{ 
   
   //PROPIEDADES
-  //Declaro imagen png de pescado
-  //   "    tamaño de imagen png
-  //   "    posición, x e y, de imagen png 
+  //Declaro sprites de pescados
+  //Declaro tamaño de sprites
+  //Declaro posición, x e y, de sprites
   
   //CONSTRUCTOR
   //Cargo imagen
@@ -12,10 +12,7 @@
  
  //METODOS
  //Dibujar()
- //Muestro una imagen de la carpeta
- 
- //Colisionar()
- //Calculo la distancia entre la posión de los objetos hoja, hoja2 y hoja3 y el mouse para cuando se toquen el objeto MiSo vaya a otra posición
+ //Muestro un sprite de la carpeta
  
   
 //}
